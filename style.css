@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+footer {
+  border-top: solid white 10px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  box-sizing: border-box;
+flex-direction: row;
+}
+@media only screen and (max-width: 600px)
+{
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.cardContainer {
+  margin-bottom: 15px;
+}
+.card {
+  Margin: auto;
+}
+
+
+.navbar {
+  background-color: black;
+  font-family: 'Fira Sans', sans-serif;
+
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+}
+.lead {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.jumbotron{
+background-color: #eb110a;
+padding: 10px;
+}
+
+.btn-primary {
+background-color: #eb110a;
+border: none;
+width: 100%;
+}
+
+.btn-primary:hover{
+  background-color: #b5130d;
+}
+.btmlogo{
+  position: absolute;
+  left: 75px;
+}
+.middle{
+  position: absolute;
+  left: 850px
+}
+.sc{
+  position: absolute;
+  right: 75px
+}
+
+.socialIcons{
+  text-align: center;
+}
+.card-title{
+  font-weight: bold;
+}
